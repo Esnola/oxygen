@@ -1,6 +1,6 @@
 <?php
 /*
-* Description: If empty post for the actual query in the easy post module (usefull for query outside the main loop)
+* Description: If no posts for the actual query in the easy post module (usefull for query outside the main loop)
 * Return: 
 * 	if no posts in the query: Desired Output
 * 	Else: the posts
