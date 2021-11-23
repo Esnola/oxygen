@@ -8,7 +8,7 @@
 */
 function asw_get_desired_size_feautured_image_url($id=null, $size="medium_large"){
 	$id = (isset($id))? get_the_ID(): $id;
-	$size = (in_array( $size, array( 'thumbnail', 'medium', 'medium_large','large', 'full' )) )? $size : "medium_large";
+	$size = (in_array($size, array('thumbnail', 'medium', 'medium_large', 'large', 'full')))? $size : "medium_large";
 	$url = esc_url(wp_get_attachment_image_src( get_post_thumbnail_id($id), $size)[0]);
 	
 	if ( $url==false ) {
