@@ -1,6 +1,6 @@
 <?php
 /* 
-* Description: Get the desired default WordPress Image Sizes URL
+* Description: Get the desired default WordPress image size URL
 * $id: the attachment image id (not the post id), default: current loop post id
 * $size: the wanted default wp dimension (thumbnail, medium,  medium_large, large, full), default: medium_large
 * Example of use to show only thumbnail: asw_get_desired_size_feautured_image_url(null, "thumbnail");
