@@ -1,3 +1,5 @@
+<?php
+
 /* 
 * Description: Get the desired size featured image url
 * $id: the attachment image id (not the post id), default: current loop post id
