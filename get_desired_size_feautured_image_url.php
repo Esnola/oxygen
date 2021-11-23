@@ -3,7 +3,7 @@
 /* 
 * Description: Get the desired size featured image url
 * $id: the attachment image id (not the post id), default: current loop post id
-* $size: the wanted dimension (thumbnail, medium,  medium_large, large, full)
+* $size: the wanted dimension (thumbnail, medium,  medium_large, large, full), default: medium_large
 * Example of use to show only thumbnail: asw_get_desired_size_feautured_image_url(null, "thumbnail");
 * Return: Desired featured image url size, or placeholder image from https://via.placeholder.com API
 */
