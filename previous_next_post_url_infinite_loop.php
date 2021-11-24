@@ -13,7 +13,8 @@ function asw_get_previous_post_url() {
 		$last = new WP_Query('post_type=post&posts_per_page=1&order=DESC&no_found_rows=true');
 		$last->the_post();
 		$last_link = get_permalink();
-		return $last_link();
+		wp_reset_query();
+		return $last_link;
 	}
 }
 
@@ -30,6 +31,7 @@ function asw_get_next_post_url(){
 		$first = new WP_Query('post_type=post&posts_per_page=1&order=ASC&no_found_rows=true');
 		$first->the_post();
 		$first_link = get_permalink();
+		wp_reset_query();
 		return $first_link;
 	}
 }
