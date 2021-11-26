@@ -17,21 +17,22 @@
 // Step 1
 // Add a code block just after your easy post module
 // Select your code block module and change his width to 100%
-// Select your easy post module and change his HTML ID to #my_easy_post
+// Select your easy post module, wrap it with a DIV and change his ID to #my_easy_post
 
 // Step 2
 // Add this JS code to the code block:
 /*
 (function($) {
-    $('#my_easy_post .oxy-posts').infiniteScroll({
-        path: '#my_easy_post .next', //the next page URL path
-        append: '#my_easy_post .oxy-post', //Append and search this CSS query selector from the returned data
-        history: false, //Enable the change of the page URL and browser history.
-        hideNav: '#my_easy_post .oxy-easy-posts-pages', //hide the Oxygen navigation buttons
-        scrollThreshold: true, // Enable auto load when reached the treshold
-        status: '.page-load-status' // the rendered status
-    });
-
+    if($(".blogzine-load-more-layout-4 .next").length>0){
+        $('#my_easy_post .oxy-posts').infiniteScroll({
+            path: '#my_easy_post .next', //the next page URL path
+            append: '#my_easy_post .oxy-post', //Append and search this CSS query selector from the returned data
+            history: false, //Enable the change of the page URL and browser history.
+            hideNav: '#my_easy_post .oxy-easy-posts-pages', //hide the Oxygen navigation buttons
+            scrollThreshold: true, // Enable auto load when reached the treshold
+            status: '.page-load-status' // the rendered status
+        });
+    }
 })(jQuery);
 */
 
