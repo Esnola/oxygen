@@ -2,6 +2,7 @@
 
 /*
 * Description: Simple way to add infinite scroll to your oxygen easy post module with a basic setup
+* NOTE: The easy post module Query must be set at default for this below code to work
 */
 
 // Step 1
@@ -10,6 +11,7 @@
 
 // Step 2
 // Add a code block just after your easy post module and put this JS code
+// After that, select your easy post module and change his HTML ID to #my_easy_post
 
 /*
 (function($) {
@@ -51,6 +53,6 @@
 }
 */
 
-// And your all done!
+// ENJOY!
 
 ?>
