@@ -20,7 +20,7 @@
 // Select your easy post module and change his HTML ID to #my_easy_post
 
 // Step 2
-// Add this this JS code to the code block:
+// Add this JS code to the code block:
 /*
 (function($) {
     $('#my_easy_post .oxy-posts').infiniteScroll({
