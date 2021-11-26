@@ -17,7 +17,7 @@
 // Step 1
 // Add a code block just after your easy post module
 // Select your code block module and change his width to 100%
-// Select your easy post module, wrap it with a DIV and change his ID to #my_easy_post
+// Select your easy post module, wrap it with a <DIV> and change this <DIV> ID to #my_easy_post
 
 // Step 2
 // Add this JS code to the code block:
