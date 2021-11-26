@@ -13,7 +13,7 @@
 
 // Step 2
 // Add a code block just after your easy post module and put this JS code
-// After that, select your easy post module and change his HTML ID to #my_easy_post or w/e u like
+// After that, select your easy post module and change his HTML ID to #my_easy_post
 
 /*
 (function($) {
