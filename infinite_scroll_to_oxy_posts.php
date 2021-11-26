@@ -3,6 +3,8 @@
 /*
 * Description: Simple way to add infinite scroll to your oxygen easy post module with a basic setup
 * NOTE: The easy post module Query must be set at default for this below code to work
+* NOTE 2: This will use the auto load when the scroll threshold has been reached. 
+* You can refer to the author library for more advanced feautures if you need so: https://infinite-scroll.com
 */
 
 // Step 1
