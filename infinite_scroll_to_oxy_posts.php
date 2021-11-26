@@ -10,14 +10,17 @@
 * You can refer to the author library for more advanced feautures if you need so: https://infinite-scroll.com
 */
 
-// Step 1
+// Step 0
 // Add the infinite scroll JS library to your page
 // See install documentation: https://infinite-scroll.com/#install
 
-// Step 2
-// Add a code block just after your easy post module and put this below JS code
-// After that, select your easy post module and change his HTML ID to #my_easy_post
+// Step 1
+// Add a code block just after your easy post module
+// Select your code block module and change his width to 100%
+// Select your easy post module and change his HTML ID to #my_easy_post
 
+// Step 2
+// Add this this JS code to the code block:
 /*
 (function($) {
     $('#my_easy_post .oxy-posts').infiniteScroll({
@@ -33,8 +36,7 @@
 */
 
 // Step 3
-// Add this PHP code to the code block
-
+// Add this PHP code to the code block:
 /*
 <div class="page-load-status">
   <div class="infinite-scroll-request">
@@ -46,11 +48,9 @@
 */
 
 // Step 4
-// Add this CSS code to the code block
-
+// Add this CSS code to the code block:
 /*
 .page-load-status {
-  width: 100%;
   display: none;
   margin-top: 60px;
   text-align: center;
