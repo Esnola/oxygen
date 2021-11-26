@@ -23,7 +23,7 @@
 // Add this JS code to the code block:
 /*
 (function($) {
-    if($(".blogzine-load-more-layout-4 .next").length>0){
+    if($("#my_easy_post .next").length>0){
         $('#my_easy_post .oxy-posts').infiniteScroll({
             path: '#my_easy_post .next', //the next page URL path
             append: '#my_easy_post .oxy-post', //Append and search this CSS query selector from the returned data
