@@ -35,10 +35,10 @@
 /*
 <div class="page-load-status">
   <div class="infinite-scroll-request">
-    Chargement ...
+    Loading ...
   </div>
-  <p class="infinite-scroll-last">Fin des articles</p>
-  <p class="infinite-scroll-error">Une erreur est survenue lors du chargement</p>
+  <p class="infinite-scroll-last">End of posts reached</p>
+  <p class="infinite-scroll-error">An error has occurred while loading</p>
 </div>
 */
 
