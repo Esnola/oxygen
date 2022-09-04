@@ -10,12 +10,11 @@ Step 0)
 
 Install the infinite scroll JS library to your page 
 - See install documentation: https://infinite-scroll.com/#install
-- The best way to add external js with Oxygen is with a custom plugin.
+- The best way to add external js with Oxygen is with a custom plugin:
     - https://oxygenbuilder.com/documentation/code/alternatives-to-functions-php/
     - (https://oxygenbuilder.com/documentation/code/javascript/)
- - The simplest way (*not recommended on real production)
-    - Copy and paste the content of the minified library inside a code block (JS section)
-    - Put the code block at the very end of your page
+ - The simplest way:
+    - Install this plugin and follow their documentation: https://en-ca.wordpress.org/plugins/custom-css-js/
 
 Step 1)
 
