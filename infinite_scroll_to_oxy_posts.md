@@ -7,7 +7,7 @@ This setup will use the auto load functionnality when the scroll threshold has b
 You can refer to the author library for more advanced feautures if you need so: https://infinite-scroll.com
 
 Step 0
-Add the infinite scroll JS library to your page 
+Install the infinite scroll JS library to your page 
 - See install documentation: https://infinite-scroll.com/#install
 - The best way to add external js with Oxygen is with a custom pugin.
     - https://oxygenbuilder.com/documentation/code/alternatives-to-functions-php/
