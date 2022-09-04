@@ -10,7 +10,7 @@ Step 0)
 
 Install the infinite scroll JS library to your page 
 - See install documentation: https://infinite-scroll.com/#install
-- The best way to add external js with Oxygen is with a custom pugin.
+- The best way to add external js with Oxygen is with a custom plugin.
     - https://oxygenbuilder.com/documentation/code/alternatives-to-functions-php/
     - (https://oxygenbuilder.com/documentation/code/javascript/)
  - The simplest way 
