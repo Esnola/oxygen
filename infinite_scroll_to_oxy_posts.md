@@ -7,7 +7,7 @@ This setup will use the auto load functionnality when the scroll threshold has b
 You can refer to the author library for more advanced feautures if you need so: https://infinite-scroll.com
 
 Step 0
-- Add the infinite scroll JS library to your page
+- Add the infinite scroll JS library to your page (https://oxygenbuilder.com/documentation/code/javascript/)
 - See install documentation: https://infinite-scroll.com/#install
 
 Step 1
