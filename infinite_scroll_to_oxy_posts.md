@@ -8,7 +8,7 @@ You can refer to the author library for more advanced feautures if you need so: 
 
 ## Step 1)
 
-- Add another code block just after your easy post module
+- Add a code block just after your easy post module
 - Select this code block module and change his width to 100%
 - Select the easy post module, wrap it with a DIV and change this wrapper DIV ID to #my_easy_post
 
