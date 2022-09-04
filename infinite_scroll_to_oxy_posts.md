@@ -19,7 +19,7 @@ Install the infinite scroll JS library to your page
 
 Step 1)
 
-- Add a code block just after your easy post module
+- Add another code block just after your easy post module
 - Select your code block module and change his width to 100%
 - Select your easy post module, wrap it with a DIV and change this DIV ID to #my_easy_post
 
