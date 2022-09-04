@@ -1,24 +1,22 @@
-/*
-* DESCRIPTION: 
-* Simple way to add infinite scroll to your oxygen easy post module with a basic setup
-*
-* NOTE: 
-* The easy post module Query must be set at default for this to work.
-* This setup will use the auto load functionnality when the scroll threshold has been reached. 
-* You can refer to the author library for more advanced feautures if you need so: https://infinite-scroll.com
-*/
+DESCRIPTION: 
+Simple way to add infinite scroll to your oxygen easy post module with a basic setup
 
-// Step 0
-// Add the infinite scroll JS library to your page
-// See install documentation: https://infinite-scroll.com/#install
+NOTE: 
+The easy post module Query must be set at default for this to work.
+This setup will use the auto load functionnality when the scroll threshold has been reached. 
+You can refer to the author library for more advanced feautures if you need so: https://infinite-scroll.com
 
-// Step 1
-// Add a code block just after your easy post module
-// Select your code block module and change his width to 100%
-// Select your easy post module, wrap it with a <DIV> and change this <DIV> ID to #my_easy_post
+Step 0
+- Add the infinite scroll JS library to your page
+- See install documentation: https://infinite-scroll.com/#install
 
-// Step 2
-// Add this JS code to the code block:
+Step 1
+- Add a code block just after your easy post module
+- Select your code block module and change his width to 100%
+- Select your easy post module, wrap it with a <DIV> and change this <DIV> ID to #my_easy_post
+
+Step 2
+Add this JS code to the code block:
 ```
 (function($) {
     if($("#my_easy_post .next").length>0){
@@ -34,8 +32,8 @@
 })(jQuery);
 ```
 
-// Step 3
-// Add this PHP code to the code block:
+Step 3
+Add this PHP code to the code block:
 ```
 <div class="page-load-status">
   <div class="infinite-scroll-request">
@@ -46,8 +44,8 @@
 </div>
 ```
 
-// Step 4
-// Add this CSS code to the code block:
+Step 4
+Add this CSS code to the code block:
 ```
 .page-load-status {
   display: none;
@@ -57,7 +55,7 @@
 }
 ```
 
-// Step 5
-// ENJOY :)
+Step 5
+ENJOY :)
 
 ?>
