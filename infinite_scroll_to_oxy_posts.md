@@ -12,6 +12,7 @@ Install the infinite scroll JS library to your page
 - See install documentation: https://infinite-scroll.com/#install
 
 > How to install third party JS library when using Oxygen?
+> 
 > https://isotropic.co/how-to-add-a-js-library-to-wordpress-3-ways/
 
 ## Step 1)
