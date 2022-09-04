@@ -14,6 +14,10 @@ Install the infinite scroll JS library to your page
 > How to install third party JS library when using Oxygen?
 > 
 > https://isotropic.co/how-to-add-a-js-library-to-wordpress-3-ways/
+> or the easiest way:
+> Copy and paste this into a code block (php/html):
+> <script src="https://unpkg.com/infinite-scroll@4/dist/infinite-scroll.pkgd.min.js"></script>
+> Put this code block at the very end of your page.
 
 ## Step 1)
 
