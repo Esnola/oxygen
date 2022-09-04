@@ -6,9 +6,22 @@ The easy post module Query must be set at default for this to work.
 This setup will use the auto load functionnality when the scroll threshold has been reached. 
 You can refer to the author library for more advanced feautures if you need so: https://infinite-scroll.com
 
+## Step 0)
+
+Install the infinite scroll JS library to your page 
+- See install documentation: https://infinite-scroll.com/#install
+
+> How to install third party JS library when using Oxygen?
+> https://isotropic.co/how-to-add-a-js-library-to-wordpress-3-ways/
+> 
+> Or the easiest way:
+> Copy and paste this into a code block (php/html):
+```<script src="https://unpkg.com/infinite-scroll@4/dist/infinite-scroll.pkgd.min.js"></script>```
+> Put this code block at the very end of your page.
+
 ## Step 1)
 
-- Add a code block just after your easy post module
+- Add another code block just after your easy post module
 - Select this code block module and change his width to 100%
 - Select the easy post module, wrap it with a DIV and change this wrapper DIV ID to #my_easy_post
 
