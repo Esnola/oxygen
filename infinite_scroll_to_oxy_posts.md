@@ -6,7 +6,7 @@ The easy post module Query must be set at default for this to work.
 This setup will use the auto load functionnality when the scroll threshold has been reached. 
 You can refer to the author library for more advanced feautures if you need so: https://infinite-scroll.com
 
-Step 0)
+## Step 0)
 
 Install the infinite scroll JS library to your page 
 - See install documentation: https://infinite-scroll.com/#install
@@ -18,13 +18,13 @@ Install the infinite scroll JS library to your page
 >    - https://oxygenbuilder.com/documentation/code/alternatives-to-functions-php/
 >    - (https://oxygenbuilder.com/documentation/code/javascript/)
 
-Step 1)
+## Step 1)
 
 - Add another code block just after your easy post module
 - Select this code block module and change his width to 100%
 - Select the easy post module, wrap it with a DIV and change this wrapper DIV ID to #my_easy_post
 
-Step 2)
+## Step 2)
 
 Add this to the code block (js):
 ```
@@ -42,7 +42,7 @@ Add this to the code block (js):
 })(jQuery);
 ```
 
-Step 3)
+## Step 3)
 
 Add this to the code block (html/php):
 ```
@@ -55,7 +55,7 @@ Add this to the code block (html/php):
 </div>
 ```
 
-Step 4)
+## Step 4)
 
 Add this to the code block (css):
 ```
