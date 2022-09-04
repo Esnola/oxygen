@@ -1,3 +1,4 @@
+/*
 * DESCRIPTION: 
 * Simple way to add infinite scroll to your oxygen easy post module with a basic setup
 *
@@ -18,7 +19,7 @@
 
 // Step 2
 // Add this JS code to the code block:
-/*
+```
 (function($) {
     if($("#my_easy_post .next").length>0){
         $('#my_easy_post .oxy-posts').infiniteScroll({
@@ -31,11 +32,11 @@
         });
     }
 })(jQuery);
-*/
+```
 
 // Step 3
 // Add this PHP code to the code block:
-/*
+```
 <div class="page-load-status">
   <div class="infinite-scroll-request">
     Loading ...
@@ -43,18 +44,18 @@
   <p class="infinite-scroll-last">End of posts reached</p>
   <p class="infinite-scroll-error">An error has occurred while loading</p>
 </div>
-*/
+```
 
 // Step 4
 // Add this CSS code to the code block:
-/*
+```
 .page-load-status {
   display: none;
   margin-top: 60px;
   text-align: center;
   color: #777;
 }
-*/
+```
 
 // Step 5
 // ENJOY :)
