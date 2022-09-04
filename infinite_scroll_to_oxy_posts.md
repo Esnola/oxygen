@@ -1,5 +1,5 @@
 
-# Simple way to add infinite scroll to your oxygen easy post module with a basic setup
+# How to add infinite scroll to your oxygen easy post module
 
 NOTE: 
 The easy post module Query must be set at default for this to work.
