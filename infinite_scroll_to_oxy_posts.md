@@ -25,7 +25,7 @@ Step 1)
 
 Step 2)
 
-Add this JS code to the code block:
+Add this to the code block (js):
 ```
 (function($) {
     if($("#my_easy_post .next").length>0){
@@ -43,7 +43,7 @@ Add this JS code to the code block:
 
 Step 3)
 
-Add this PHP code to the code block:
+Add this to the code block (html/php):
 ```
 <div class="page-load-status">
   <div class="infinite-scroll-request">
@@ -56,7 +56,7 @@ Add this PHP code to the code block:
 
 Step 4)
 
-Add this CSS code to the code block:
+Add this to the code block (css):
 ```
 .page-load-status {
   display: none;
