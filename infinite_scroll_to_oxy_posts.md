@@ -29,7 +29,6 @@ Install the infinite scroll JS library to your page
 
 Add this to the code block (js):
 ```
-<script src="https://unpkg.com/infinite-scroll@4/dist/infinite-scroll.pkgd.min.js"></script>
 (function($) {
     if($("#my_easy_post .next").length>0){
         $('#my_easy_post .oxy-posts').infiniteScroll({
