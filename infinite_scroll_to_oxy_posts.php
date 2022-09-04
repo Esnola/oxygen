@@ -1,9 +1,3 @@
-<?php
-/*
-* UPDATE:
-* Will not integrate well with the actual 3.9 release of Oxygen Builder with this issue that i found out: https://github.com/soflyy/oxygen-bugs-and-features/issues/2535
-/*
-
 * DESCRIPTION: 
 * Simple way to add infinite scroll to your oxygen easy post module with a basic setup
 *
